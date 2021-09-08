@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.green-border {
+  border: 1px solid green;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: shake infinite 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.btnDarkBlue {
+  padding: 10px;
+  background-color: rgb(19,23,50);
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+
+.btnDarkBlue:hover {
+  background-color: white;
+  color:  rgb(19,23,50);
+}
+
+.btnDarkBlue:disabled {
+  color: rgba(16, 16, 16, 0.3);
+  background-color: rgba(239, 239, 239, 0.3);
+  border-color: rgba(118, 118, 118, 0.3);
+  cursor: default;
+}
