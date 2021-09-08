@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+}
+
+a , a:visited {
+  color: white;
+}
+
+.cabecalho {
+  font-family: Times New Roman , Times , serif;
+  font-style: oblique;
+  background-color: lightsteelblue;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.img {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav {
+  margin-top: 83px;
+  background-color: lightsteelblue;
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.nav-link {
+  padding-left: 20px;
+}
+
+.lado-direito {
+  float: right;
+  width: 47%;
+  text-align: justify;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+  text-align: justify;
+}
+
+.section-article-aside {
+  display: inline-block;
+}
+
+.table , td , th {
+  border: 2px groove black;
+  width: 50%;
+  margin: auto;
+}
+
+th {
+  background-color: gray;
+}
+
+.button-curriculo-trybe {
+  width: 100%;
+  margin: auto;
+  display: table;
+  padding: 2px;
+}
+
+.button {
+  background-color: green;
+  width: 50%;
+  margin: auto;
+  display: table;
+  padding: 2px;
+  border: groove gray;
+  font-weight: 600;
+}
+
+.rodape {
+  text-align: center;
+  margin: -6px;
+  background-color: lightsteelblue;
+  width: auto;
+}
+
+.link-portfolio , .link-portfolio:visited {
+  color: blue;
+}
