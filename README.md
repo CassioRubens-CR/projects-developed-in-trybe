@@ -1,5 +1,6 @@
 # Projetos desenvolvidos no curso de Formação em Desenvolvimento Web - [Trybe](https://www.betrybe.com/)
 
+> Full Stack | JavaScript | ReactJS | NodeJS | Python | MySQL | Mongo
 ____
 
 > ## Curso com duração mínima de `12 meses` e carga horária compreendida com cerca de `1.500 horas.`
